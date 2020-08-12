@@ -1,0 +1,32 @@
+/** размер увеличивается*/
+a:hover{
+    font-size: 40px;
+}
+/**не переходили*/
+a:link{
+    color: tomato;
+}
+/** переходили*/
+a:visited{
+    color: yellow;
+}
+/**в момент нажатиея (то есть активность) */
+a:active{
+    color: yellowgreen;
+}
+/** изменнение первой стр абзаца
+*/
+p::first-line{
+    font-size: 50px;
+}
+/** какой то контент
+*/
+p::after{
+content: "тут after";
+}
+p::before{
+content: "тут before";
+}
+
+/** к 1
+*/

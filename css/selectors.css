@@ -1,0 +1,33 @@
+h2{
+  text-transform: uppercase;
+}
+.description{
+  color: blue;
+}
+.pp-d{
+  font-size: 40px;
+}
+#one{
+  color: greenyellow;
+}
+.one{
+  color: aqua;
+  font-size: 70px;
+}
+.menu li a{
+  font-size: 80px;
+}
+.menu2 li a{
+  font-size: 50px;
+}
+h3+.description{
+  color: violet;
+
+}
+a[data-name]{
+font-size: 100px;
+}
+
+a[data-name="dd"]{
+  font-size: 10px;
+  }

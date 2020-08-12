@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селекторы, пвсевдоклассы и всевдоэлементы</title>
+    <link rel="stylesheet" href="css/selectors.css">
+</head>
+<div>
+    <!--Cелектор типа-->
+    <h2>Подчеркнутый заголовок</h2>
+    <h2> заголовок</h2>
+</div>
+<!--Селектор класса-->
+<div>
+    <p class="description">
+        Этот текст стилизован с помощью селектора
+    </p>
+    <blockquote class="description">
+        На странице может быть несколько тегов с тем же класом
+    </blockquote>
+</div>
+
+<!--несколько классов на элементе-->
+<div>
+    <p class="description pp-d">что то там </p>
+</div>
+<!--id-->
+<div>
+    <p id="one">что то там id </p>
+</div>
+<!-- class + id-->
+<div>
+    <p id="one" class="one">что то там id </p>
+</div>
+    <!--селекторы потомков-->
+    <div>
+        <ul class="menu">
+            <li>
+                <a href="">ссылка №1</a>
+            </li>
+            <li>
+                <a href="">ссылка №2</a>
+            </li>
+        </ul>
+        <ul class="menu2">
+            <li>
+                <a href="">ссылка №1</a>
+            </li>
+            <li>
+                <a href="">ссылка №2</a>
+            </li>
+        </ul>
+    </div>
+        <!--селекторы сестринские-->
+
+<div>
+    <p class="description">класс discription </p>
+    <h3>Заголовок</h3>
+    <p class="description">класс discription </p>
+    <h3>Заголовок2</h3>
+    <div class="description">
+        <p class="description">класс discription div </p>
+    </div>
+</div>
+
+<!-- по атрибуту-->
+<div>
+    <a href="" data-name="cc" data-col="2">Ссылка 1</a>
+    <a href="" data-name="dd" data-col="2">Ссылка 2</a>
+    <a href="">Ссылка 3</a>
+</div>
+
+
+</body>
+
+</html>
