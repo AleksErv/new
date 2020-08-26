@@ -28,6 +28,22 @@ p::before{
 content: "тут before";
 }
 
-/** к 1
-fhfdh
-*/
+/** к 1 в родителе**/
+
+ul li:first-child{
+    color: red;
+}
+/**к n в родителе*/
+ul li:nth-child(2){
+    color: salmon;
+}
+/** все */
+li:not(div){
+    font-size: 35px;
+
+}
+/**к последнему в родителе*/
+ul li:last-child{
+    color: slateblue;
+    background: slategrey;
+}
